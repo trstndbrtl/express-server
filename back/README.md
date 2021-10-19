@@ -20,6 +20,17 @@ Express Api server
   }
 ```
 
+## .env
+Create to root **back** folder an .env file with the following lines in it :
+
+```
+DB_NAME=<mongodb-db-name>
+DB_USER=<mongodb-user>
+DB_PWD=<mongodb-password>
+DB_HOST=<mongodb-9utsh.mongodb.net>
+ASK_TOKEN=Gvj76GV6kjh_yvzddzsdcC4673X2_vu76mp234g43v
+```
+
 ## Run
 
 Install all Dependencies

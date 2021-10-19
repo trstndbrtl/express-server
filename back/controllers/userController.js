@@ -22,9 +22,10 @@ exports.signup = (req, res, next) => {
         .then(() => res.status(201).json({ message: 'Utilisateur créé !' }))
         .catch(error => res.status(400).json({ error }));
     })
-    .catch(error => { 
+    .catch(error => {
       console.log(error)
-      return res.status(500).json({ error }) });
+      return res.status(500).json({ error })
+    });
 };
 // login function
 exports.login = (req, res, next) => {
